@@ -472,6 +472,12 @@ max-width: 200px;
 }
 
 @media screen and (max-width: 768px) {
+    .round2 {
+        display: none;
+    }
+    .round3 {
+        display: none;
+    }
     .about p {
         margin: 5rem 2rem 0rem 2rem;
     }
@@ -484,5 +490,11 @@ max-width: 200px;
     }
     .accordion button[aria-expanded=true] + .accordion-content  {
         max-height: 500em;
+    }
+    .box {
+        width: 80%;
+    }
+    .nav-links{
+        display: none;
     }
 }
