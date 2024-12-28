@@ -51,6 +51,9 @@ header {
     position: relative;
     scroll-snap-align: start;
 }
+nav {
+    margin: 0 3rem;
+}
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -92,7 +95,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: calc(100vh - 15rem); 
+    height: calc(100vh - 15.5rem); 
 }
 .header-content h1 {
     margin-bottom: 1rem;
@@ -108,7 +111,7 @@ header {
     justify-content: center;
     color: white;
     background-color: #BE5C00;
-    padding: 0.6rem 1rem;
+    padding: .9rem 1.5rem;
     text-decoration: none;
     border-radius: 10px;
     transition: all ease-in-out .3s;
@@ -474,5 +477,12 @@ max-width: 200px;
     }
     .line-up {
         height: auto;
+    }
+    .container {
+        padding: 2rem;
+        width: 70%;
+    }
+    .accordion button[aria-expanded=true] + .accordion-content  {
+        max-height: 500em;
     }
 }
